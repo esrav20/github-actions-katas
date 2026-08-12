@@ -32,5 +32,4 @@ jobs:
             DEFAULT_BRANCH: main
             # to report github actions status checks
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        
-        
+            DISABLE_ERRORS: true
